@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Variabel
+    int angka = 10;
+
+    // Tipe data
+    double decimal = 3.14;
+
+    // Loop for
+    for (int i = 0; i < angka; i++) {
+        if (i % 2 == 0) {
+            cout << i << " adalah angka genap." << endl;
+        }
+    }
+
+    // Loop while
+    int j = 0;
+    while (j < 5) {
+        cout << "Ini adalah iterasi ke-" << j << endl;
+        j++;
+    }
+
+    // Loop do while
+    int k = 0;
+    do {
+        cout << "Ini adalah iterasi ke-" << k << endl;
+        k++;
+    } while (k < 5);
+
+    // Array satu dimensi
+    int arrSatuDimensi[] = {1, 2, 3, 4, 5};
+
+    // Array multidimensi
+    int arrMultiDimensi[2][3] = {{1, 2, 3}, {4, 5, 6}};
+
+    // Input
+    int inputUser;
+    cout << "Masukkan sebuah angka: ";
+    cin >> inputUser;
+
+    // Output
+    cout << "Angka yang dimasukkan: " << inputUser << endl;
+
+    // Komentar
+    // Ini adalah komentar di dalam kode C++
+    
+    return 0;
+}

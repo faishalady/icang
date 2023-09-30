@@ -1,0 +1,47 @@
+public class Main {
+    public static void main(String[] args) {
+        // Variabel
+        int angka = 10;
+
+        // Tipe data
+        double decimal = 3.14;
+
+        // Loop for
+        for (int i = 0; i < angka; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " adalah angka genap.");
+            }
+        }
+
+        // Loop while
+        int j = 0;
+        while (j < 5) {
+            System.out.println("Ini adalah iterasi ke-" + j);
+            j++;
+        }
+
+        // Loop do while
+        int k = 0;
+        do {
+            System.out.println("Ini adalah iterasi ke-" + k);
+            k++;
+        } while (k < 5);
+
+        // Array satu dimensi
+        int[] arrSatuDimensi = {1, 2, 3, 4, 5};
+
+        // Array multidimensi
+        int[][] arrMultiDimensi = {{1, 2, 3}, {4, 5, 6}};
+
+        // Input
+        java.util.Scanner input = new java.util.Scanner(System.in);
+        System.out.print("Masukkan sebuah angka: ");
+        int inputUser = input.nextInt();
+
+        // Output
+        System.out.println("Angka yang dimasukkan: " + inputUser);
+
+        // Komentar
+        // Ini adalah komentar di dalam kode Java
+    }
+}
